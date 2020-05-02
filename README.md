@@ -44,11 +44,11 @@ O comando cache é um método de otimização utilizado para acelerar o processa
 
 Há uma série de fatores que justificam o fato de os códigos implementados em Spark apresentar maior velocidade do que em MapReduce. Abaixo alguns pontos a considerar:
 
-*Processamento.* No caso do MapReduce os dados são gravados em cada etapa do processo - map, shuffle e reduce -, o que torna a operação onerosa quando é necessário acessar os dados várias vezes durante o processamento. 
+*Processamento.* No caso do MapReduce os dados são gravados em cada etapa do processo - *map*, *shuffle* e *reduce* -, o que torna a operação onerosa quando é necessário acessar os dados várias vezes durante o processamento. 
 
 *Transformações*. Toda vez que uma operação é efetuada utilizando o MapReduce, há um esforço que é direcionado para resgatar todo o dado presente na memória do disco para completar uma task. No caso do Spark isso não ocorre, pois há uma maior flexibilidade sobre como lidar com os dados em disco e/ou in-memory utilizando o cache, por exemplo.
 
-*Arquitetura.* O MapReduce inicia uma instância JVM para cada task, e isso pode levar um tempo, uma vez que é necessário inicializar os arquivos JARS, efetuar XML parsing, etc. Já o Spark mantém o executor JVM funcionando em cada node, o que facilita no rápido processamento das tasks. Cada Spark job cria um DAG (Directed Acyclic Graph) de taks que podem ser processados no cluster. No Caso do MapReduce, há somente dois DAG’s pré-definidos, um para o map e outro para reduce. Os DAG’s em Spark podem ter vários estágios, e um job pode ser finalizado após apenas um estágio. Desta forma, alguns jobs podem ser finalizados mais rapidamente do que no MapReduce.
+*Arquitetura.* O MapReduce inicia uma instância JVM para cada task, e isso pode levar um tempo, uma vez que é necessário inicializar os arquivos JARS, efetuar XML parsing, etc. Já o Spark mantém o executor JVM funcionando em cada node, o que facilita no rápido processamento das tasks. Cada Spark job cria um *DAG* (*Directed Acyclic Graph*) de taks que podem ser processados no cluster. No Caso do MapReduce, há somente dois *DAG’s* pré-definidos, um para *map* e outro para *reduce*. Os *DAG’s* em Spark podem ter vários estágios, e um job pode ser finalizado após apenas um estágio. Desta forma, alguns jobs podem ser finalizados mais rapidamente do que no MapReduce.
 
 **Qual é a função do SparkContext?**
 
