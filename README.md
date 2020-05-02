@@ -25,7 +25,7 @@ O arquivo *access_log_Jul95* tem como último registro *"alyssa.p"*. Este dados 
 
 # Scripts e ambiente de execução
 
-Para executar os scripts ***semantix.py*** e/ou ***semantix.ipynb*** que estão salvos neste repositório, é necessário ter instalado os seguintes itens no computador:
+Para executar os scripts ***desafio-nasa.py*** e/ou ***desafio-nasa.ipynb*** que estão salvos neste repositório, é necessário ter instalado os seguintes itens no computador:
 
 * Python3
 * Java JDK 8
@@ -91,7 +91,7 @@ Na operação efetuada em *reduceByKey*, os dados são combinados em cada parti�
 
 # Parte 2 - Manipulação e análise de dados em Spark
 
-*Vide os scripts ***semantix.py*** e ***semantix.ipynb*** que estão neste repositório.*
+*Vide os scripts ***desafio-nasa.py*** e ***desafio-nasa.ipynb*** que estão neste repositório.*
 
 **1. Número de hosts únicos.**
 
