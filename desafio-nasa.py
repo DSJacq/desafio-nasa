@@ -72,6 +72,7 @@ def url_404(rdd):
 
 jul_404 = jul.filter(url_404).cache()
 aug_404 = aug.filter(url_404).cache()
+
 def top5_url_error_404(rdd_url_404):
     try:
         url_404 = rdd_url_404.map(lambda line: line.split('"')[1].split(' ')[1])
