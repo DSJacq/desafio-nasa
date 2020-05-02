@@ -2,7 +2,7 @@
 
 # Introdução
 
-Este realização deste desafio tem como objetivo apresentar os domínio dos conhecimentos teóricos e práticos sobre a ferramenta Spark. Ele está dividido em duas partes. A primeira parte consiste na explicação de alguns conceitos fundamentais relacionados ao Spark. A segunda parte é a análise de um conjunto de dados da Nasa Kennedy Space Center através da elaboração de scripts.
+Este realização deste desafio tem como objetivo apresentar os domínio dos conhecimentos teóricos e práticos sobre a ferramenta Spark. Ele está dividido em duas partes. A primeira parte consiste na explicação de alguns conceitos fundamentais relacionados ao Spark. A segunda parte é a análise de um conjunto de dados da *Nasa Kennedy Space Center* através da elaboração de scripts.
 
 # Fonte de dados
 
@@ -16,7 +16,7 @@ url: https://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html
 
 **Sobre**:
 
-Os dados correspondem às requisições HTTP para o servidor da NASA Kennedy Space Center WWW na Flórida.
+Os dados correspondem às requisições HTTP para o servidor da *NASA Kennedy Space Center* na Flórida.
 
 # Scripts e ambiente de execução
 
