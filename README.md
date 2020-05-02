@@ -21,7 +21,7 @@ Os dados correspondem às requisições HTTP para o servidor da *NASA Kennedy Sp
 
 **Observação**:
 
-O arquivo *access_log_Jul95* tem como último registro *"alyssa.p"*. Este dados solto não permitia a leitura correta dos dados pelo script, e teve de ser removido.
+O arquivo *access_log_Jul95* tem como último registro *"alyssa.p"*. Este dado solto não permitia a leitura e interpretação correta dos dados pelo script, e teve de ser removido.
 
 # Scripts e ambiente de execução
 
