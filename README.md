@@ -18,12 +18,13 @@ Os dados correspondem às requisições HTTP para o servidor da NASA Kennedy Spa
 
 # Scripts e ambiente de execução
 
-Para executar os scripts ***semantix.py*** e/ou ***semantix.ipynb*** é necessário ter instalado os seguintes itens no computador:
+Para executar os scripts ***semantix.py*** e/ou ***semantix.ipynb*** que estão salvos neste repositório, é necessário ter instalado os seguintes itens no computador:
 
 * Python3
 * Java JDK 8
-* Jupyter Notebook
 * Spark 2.4.5 (Windows ou Mac)
+* Jupyter Notebook
+
 
 
 # Parte 1
