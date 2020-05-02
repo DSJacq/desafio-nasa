@@ -14,6 +14,9 @@ url: https://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html
 * Jul 01 to Jul 31, ASCII format, 20.7 MB gzip compressed, 205.2 MB.
 * Aug 04 to Aug 31, ASCII format, 21.8 MB gzip compressed, 167.8 MB.
 
+**Observação**:
+O arquivo *access_log_Jul95* tem como último registro *"alyssa.p"*. Este dados solto não permitia a leitura correta dos dados pelo script, e teve de ser removido.
+
 **Sobre**:
 
 Os dados correspondem às requisições HTTP para o servidor da *NASA Kennedy Space Center* na Flórida.
