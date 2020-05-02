@@ -68,7 +68,7 @@ spark = SQLContext(sc)
 
 **GroupByKey é menos eficiente que reduceByKey em grandes dataset. Por quê?**
 
-Na operação efetuada em *reduceByKey*, os dados são combinados em cada partição, e apenas um output de cada partição, contendo pares *key-value*, por exemplo, são enviados através do *cluster* para a realização do cálculo final. Ou seja, o Spark executa o *reduceByKey* em cada partição antes de efetuar a redistribuição dos dados ou *shuffle*, resultando em um menor volume de transferência de dados. Já no caso do *groupByKey*, o cálculo de agregação para os pares *key-value* e o *shuffle* é efetuados de uma vez só, sem uma etapa intermediária, exigindo um grande esforço para transmitir os dados através do cluster.
+Na operação efetuada em *reduceByKey*, os dados são combinados em cada partição, e apenas um output de cada partição, contendo pares *key-value*, são enviados através do *cluster* para a realização do cálculo final. Ou seja, o Spark executa o *reduceByKey* em cada partição antes de efetuar a redistribuição dos dados ou *shuffle*, resultando em um menor volume de transferência de dados. Já no caso do *groupByKey*, o cálculo de agregação para os pares *key-value* e o *shuffle* é efetuados de uma vez só, sem uma etapa intermediária, exigindo um grande esforço para transmitir os dados através do cluster.
 
 
 **Explique o que o código Scala abaixo faz.**
