@@ -2,7 +2,7 @@
 
 # Introdução
 
-A realização deste desafio tem como objetivo apresentar o domínio dos conhecimentos teóricos e práticos sobre a ferramenta Spark. Ele está dividido em duas partes. A primeira parte consiste na explicação de alguns conceitos fundamentais relacionados ao Spark. A segunda parte é a manipulação análise de um conjunto de dados da *Nasa Kennedy Space Center* através da elaboração de scripts.
+A realização deste desafio tem como objetivo apresentar o domínio dos conhecimentos teóricos e práticos sobre a ferramenta Spark. Ele está dividido em duas partes. A primeira parte consiste na explicação de alguns conceitos fundamentais relacionados ao Spark. A segunda parte é a manipulação e análise de um conjunto de dados da *Nasa Kennedy Space Center* através da elaboração de scripts.
 
 # Dados
 
