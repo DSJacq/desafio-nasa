@@ -4,7 +4,7 @@
 
 Este realização deste desafio tem como objetivo apresentar os domínio dos conhecimentos teóricos e práticos sobre a ferramenta Spark. Ele está dividido em duas partes. A primeira parte consiste na explicação de alguns conceitos fundamentais relacionados ao Spark. A segunda parte é a análise de um conjunto de dados da *Nasa Kennedy Space Center* através da elaboração de scripts.
 
-# Fonte de dados
+# Dados
 
 **Origem**: 
 
@@ -14,12 +14,14 @@ url: https://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html
 * Jul 01 to Jul 31, ASCII format, 20.7 MB gzip compressed, 205.2 MB.
 * Aug 04 to Aug 31, ASCII format, 21.8 MB gzip compressed, 167.8 MB.
 
-**Observação**:
-O arquivo *access_log_Jul95* tem como último registro *"alyssa.p"*. Este dados solto não permitia a leitura correta dos dados pelo script, e teve de ser removido.
-
 **Sobre**:
 
 Os dados correspondem às requisições HTTP para o servidor da *NASA Kennedy Space Center* na Flórida.
+
+
+**Observação**:
+
+O arquivo *access_log_Jul95* tem como último registro *"alyssa.p"*. Este dados solto não permitia a leitura correta dos dados pelo script, e teve de ser removido.
 
 # Scripts e ambiente de execução
 
