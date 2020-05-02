@@ -34,7 +34,7 @@ Para executar os scripts ***semantix.py*** e/ou ***semantix.ipynb*** que estão 
 
 
 
-# Parte 1
+# Parte 1: Conhecimentos dos fundamentos em Spark
 
 **Qual o objetivo do comando cache em Spark?**
 
@@ -89,7 +89,9 @@ Na operação efetuada em *reduceByKey*, os dados são combinados em cada parti�
 
 
 
-# Parte 2
+# Parte 2 - Manipulação e análise de dados em Spark
+
+*Vide os scripts ***semantix.py*** e ***semantix.ipynb*** que estão neste repositório.*
 
 **1. Número de hosts únicos.**
 
