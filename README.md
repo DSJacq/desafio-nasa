@@ -34,7 +34,7 @@ Para executar os scripts ***desafio-nasa.py*** e/ou ***desafio-nasa.ipynb*** que
 
 
 
-# Parte 1: Conhecimentos dos fundamentos em Spark
+# Parte 1: Conhecimentos teóricos em Spark
 
 **Qual o objetivo do comando cache em Spark?**
 
