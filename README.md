@@ -69,11 +69,11 @@ Na operação efetuada em *reduceByKey*, os dados são combinados em cada parti�
 **Explique o que o código Scala abaixo faz.**
 
 ```
-1. val textFile = sc . textFile ( "hdfs://..." )
-2. val counts = textFile . flatMap ( line => line . split ( " " ))
-3.           . map ( word => ( word , 1 ))
-4.           . reduceByKey ( _ + _ )
-5. counts . saveAsTextFile ( "hdfs://..." )
+1. val textFile = sc.textFile("hdfs://...")
+2. val counts = textFile.flatMap(line => line.split( " " ))
+3.                      .map(word => (word, 1))
+4.                      .reduceByKey (_+_)
+5                       .counts.saveAsTextFile("hdfs://...")
 ```
 
 1.	Leitura de um arquivo texto localizado em um diretório do HDFS;
@@ -85,4 +85,36 @@ Na operação efetuada em *reduceByKey*, os dados são combinados em cada parti�
 
 
 # Parte 2
+
+**1. Número de hosts únicos.**
+
+```
+Number of unique hosts on july: 55.
+Number of unique hosts on august: 53.
+```
+
+**2. O total de erros 404.**
+
+```
+Total number of 404 erros on the month of july: 10845.
+Total number of 404 erros on the month of august: 10056.
+```
+
+**3. Os 5 URLs que mais causaram erro 404.**
+
+```
+
+```
+
+**4. Quantidade de erros 404 por dia.**
+
+```
+```
+
+
+**5. O total de bytes retornados**
+
+```
+
+```
 
